@@ -4,8 +4,14 @@
   "description": "Zoom Clone using NodeJS, WebRTC and Websockets",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon",
-    "heroku-postbuild":"npm run build"
+    "dev": "nodemon"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
+    "nodemon": "^2.0.12"
   },
   "dependencies": {
     "@socket.io/admin-ui": "^0.2.0",
@@ -13,12 +19,6 @@
     "localtunnel": "^2.0.2",
     "pug": "^3.0.2",
     "socket.io": "^4.2.0",
-    "ws": "^8.2.1",
-    
-    "@babel/cli": "^7.14.8",
-    "@babel/core": "^7.15.0",
-    "@babel/node": "^7.14.9",
-    "@babel/preset-env": "^7.15.0",
-    "nodemon": "^2.0.12"
+    "ws": "^8.2.1"
   }
 }
